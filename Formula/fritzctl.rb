@@ -6,7 +6,7 @@ class Fritzctl < Formula
   sha256 "69f5a32bb0d3a0ad1f5781be98cb93ecdd86d151d788e7f0a3a0610a5de16b2d"
 
   def install
-    bin.install "build/distributions/darwin_amd64/fritzctl"
+    bin.install "distributions/darwin_amd64/fritzctl"
   end
 
   test do
